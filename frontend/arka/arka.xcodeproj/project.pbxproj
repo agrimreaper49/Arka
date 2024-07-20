@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35D16F402C45D59600666BBF /* arkaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D16F3F2C45D59600666BBF /* arkaApp.swift */; };
+		35D16F422C45D59600666BBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D16F412C45D59600666BBF /* ContentView.swift */; };
+		35D16F442C45D59700666BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D16F432C45D59700666BBF /* Assets.xcassets */; };
+		35D16F472C45D59700666BBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D16F462C45D59700666BBF /* Preview Assets.xcassets */; };
+		35D16F492C45D59700666BBF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D16F482C45D59700666BBF /* Persistence.swift */; };
+		35D16F4C2C45D59700666BBF /* arka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35D16F4A2C45D59700666BBF /* arka.xcdatamodeld */; };
+		35D16F572C45D59700666BBF /* arkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D16F562C45D59700666BBF /* arkaTests.swift */; };
+		35D16F612C45D59700666BBF /* arkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D16F602C45D59700666BBF /* arkaUITests.swift */; };
+		35D16F632C45D59700666BBF /* arkaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D16F622C45D59700666BBF /* arkaUITestsLaunchTests.swift */; };
+		35D16F702C45D83200666BBF /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D16F6F2C45D83200666BBF /* WelcomeScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35D16F532C45D59700666BBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35D16F342C45D59600666BBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35D16F3B2C45D59600666BBF;
+			remoteInfo = arka;
+		};
+		35D16F5D2C45D59700666BBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35D16F342C45D59600666BBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35D16F3B2C45D59600666BBF;
+			remoteInfo = arka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35D16F3C2C45D59600666BBF /* arka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D16F3F2C45D59600666BBF /* arkaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkaApp.swift; sourceTree = "<group>"; };
+		35D16F412C45D59600666BBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35D16F432C45D59700666BBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35D16F462C45D59700666BBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35D16F482C45D59700666BBF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		35D16F4B2C45D59700666BBF /* arka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = arka.xcdatamodel; sourceTree = "<group>"; };
+		35D16F4D2C45D59700666BBF /* arka.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = arka.entitlements; sourceTree = "<group>"; };
+		35D16F522C45D59700666BBF /* arkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D16F562C45D59700666BBF /* arkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkaTests.swift; sourceTree = "<group>"; };
+		35D16F5C2C45D59700666BBF /* arkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D16F602C45D59700666BBF /* arkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkaUITests.swift; sourceTree = "<group>"; };
+		35D16F622C45D59700666BBF /* arkaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35D16F6F2C45D83200666BBF /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35D16F392C45D59600666BBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D16F4F2C45D59700666BBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D16F592C45D59700666BBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35D16F332C45D59600666BBF = {
+			isa = PBXGroup;
+			children = (
+				35D16F3E2C45D59600666BBF /* arka */,
+				35D16F552C45D59700666BBF /* arkaTests */,
+				35D16F5F2C45D59700666BBF /* arkaUITests */,
+				35D16F3D2C45D59600666BBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35D16F3D2C45D59600666BBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35D16F3C2C45D59600666BBF /* arka.app */,
+				35D16F522C45D59700666BBF /* arkaTests.xctest */,
+				35D16F5C2C45D59700666BBF /* arkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35D16F3E2C45D59600666BBF /* arka */ = {
+			isa = PBXGroup;
+			children = (
+				35D16F3F2C45D59600666BBF /* arkaApp.swift */,
+				35D16F412C45D59600666BBF /* ContentView.swift */,
+				35D16F432C45D59700666BBF /* Assets.xcassets */,
+				35D16F482C45D59700666BBF /* Persistence.swift */,
+				35D16F4D2C45D59700666BBF /* arka.entitlements */,
+				35D16F4A2C45D59700666BBF /* arka.xcdatamodeld */,
+				35D16F452C45D59700666BBF /* Preview Content */,
+				35D16F6F2C45D83200666BBF /* WelcomeScreen.swift */,
+			);
+			path = arka;
+			sourceTree = "<group>";
+		};
+		35D16F452C45D59700666BBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				35D16F462C45D59700666BBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35D16F552C45D59700666BBF /* arkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				35D16F562C45D59700666BBF /* arkaTests.swift */,
+			);
+			path = arkaTests;
+			sourceTree = "<group>";
+		};
+		35D16F5F2C45D59700666BBF /* arkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35D16F602C45D59700666BBF /* arkaUITests.swift */,
+				35D16F622C45D59700666BBF /* arkaUITestsLaunchTests.swift */,
+			);
+			path = arkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35D16F3B2C45D59600666BBF /* arka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D16F662C45D59700666BBF /* Build configuration list for PBXNativeTarget "arka" */;
+			buildPhases = (
+				35D16F382C45D59600666BBF /* Sources */,
+				35D16F392C45D59600666BBF /* Frameworks */,
+				35D16F3A2C45D59600666BBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arka;
+			productName = arka;
+			productReference = 35D16F3C2C45D59600666BBF /* arka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35D16F512C45D59700666BBF /* arkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D16F692C45D59700666BBF /* Build configuration list for PBXNativeTarget "arkaTests" */;
+			buildPhases = (
+				35D16F4E2C45D59700666BBF /* Sources */,
+				35D16F4F2C45D59700666BBF /* Frameworks */,
+				35D16F502C45D59700666BBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35D16F542C45D59700666BBF /* PBXTargetDependency */,
+			);
+			name = arkaTests;
+			productName = arkaTests;
+			productReference = 35D16F522C45D59700666BBF /* arkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35D16F5B2C45D59700666BBF /* arkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D16F6C2C45D59700666BBF /* Build configuration list for PBXNativeTarget "arkaUITests" */;
+			buildPhases = (
+				35D16F582C45D59700666BBF /* Sources */,
+				35D16F592C45D59700666BBF /* Frameworks */,
+				35D16F5A2C45D59700666BBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35D16F5E2C45D59700666BBF /* PBXTargetDependency */,
+			);
+			name = arkaUITests;
+			productName = arkaUITests;
+			productReference = 35D16F5C2C45D59700666BBF /* arkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35D16F342C45D59600666BBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					35D16F3B2C45D59600666BBF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					35D16F512C45D59700666BBF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 35D16F3B2C45D59600666BBF;
+					};
+					35D16F5B2C45D59700666BBF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 35D16F3B2C45D59600666BBF;
+					};
+				};
+			};
+			buildConfigurationList = 35D16F372C45D59600666BBF /* Build configuration list for PBXProject "arka" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35D16F332C45D59600666BBF;
+			productRefGroup = 35D16F3D2C45D59600666BBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35D16F3B2C45D59600666BBF /* arka */,
+				35D16F512C45D59700666BBF /* arkaTests */,
+				35D16F5B2C45D59700666BBF /* arkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35D16F3A2C45D59600666BBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D16F472C45D59700666BBF /* Preview Assets.xcassets in Resources */,
+				35D16F442C45D59700666BBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D16F502C45D59700666BBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D16F5A2C45D59700666BBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35D16F382C45D59600666BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D16F4C2C45D59700666BBF /* arka.xcdatamodeld in Sources */,
+				35D16F492C45D59700666BBF /* Persistence.swift in Sources */,
+				35D16F702C45D83200666BBF /* WelcomeScreen.swift in Sources */,
+				35D16F422C45D59600666BBF /* ContentView.swift in Sources */,
+				35D16F402C45D59600666BBF /* arkaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D16F4E2C45D59700666BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D16F572C45D59700666BBF /* arkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D16F582C45D59700666BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D16F612C45D59700666BBF /* arkaUITests.swift in Sources */,
+				35D16F632C45D59700666BBF /* arkaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35D16F542C45D59700666BBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35D16F3B2C45D59600666BBF /* arka */;
+			targetProxy = 35D16F532C45D59700666BBF /* PBXContainerItemProxy */;
+		};
+		35D16F5E2C45D59700666BBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35D16F3B2C45D59600666BBF /* arka */;
+			targetProxy = 35D16F5D2C45D59700666BBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35D16F642C45D59700666BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35D16F652C45D59700666BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		35D16F672C45D59700666BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = arka/arka.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arka/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrimsharma.arka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		35D16F682C45D59700666BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = arka/arka.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arka/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrimsharma.arka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		35D16F6A2C45D59700666BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrimsharma.arkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/arka";
+			};
+			name = Debug;
+		};
+		35D16F6B2C45D59700666BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrimsharma.arkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/arka";
+			};
+			name = Release;
+		};
+		35D16F6D2C45D59700666BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrimsharma.arkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = arka;
+			};
+			name = Debug;
+		};
+		35D16F6E2C45D59700666BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrimsharma.arkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = arka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35D16F372C45D59600666BBF /* Build configuration list for PBXProject "arka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D16F642C45D59700666BBF /* Debug */,
+				35D16F652C45D59700666BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35D16F662C45D59700666BBF /* Build configuration list for PBXNativeTarget "arka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D16F672C45D59700666BBF /* Debug */,
+				35D16F682C45D59700666BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35D16F692C45D59700666BBF /* Build configuration list for PBXNativeTarget "arkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D16F6A2C45D59700666BBF /* Debug */,
+				35D16F6B2C45D59700666BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35D16F6C2C45D59700666BBF /* Build configuration list for PBXNativeTarget "arkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D16F6D2C45D59700666BBF /* Debug */,
+				35D16F6E2C45D59700666BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35D16F4A2C45D59700666BBF /* arka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35D16F4B2C45D59700666BBF /* arka.xcdatamodel */,
+			);
+			currentVersion = 35D16F4B2C45D59700666BBF /* arka.xcdatamodel */;
+			path = arka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 35D16F342C45D59600666BBF /* Project object */;
+}
