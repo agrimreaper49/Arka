@@ -8,4 +8,4 @@ A personal chatbot specializing in fantasy football advice. The chatbot uses a f
 - Flask
 - LangChain
 - HuggingFace
-- Nvidia Cuda
+- Nvidia CUDA Toolkit
